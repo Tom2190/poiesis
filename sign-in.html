@@ -2,7 +2,10 @@
 <html>
 
 <head>
+	<title>Poiesis: Sign-in</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./styles/general.css">
+	<link rel="stylesheet" type="text/css" href="./styles/sign-in.css">
 </head>
 
 <body>
@@ -12,21 +15,21 @@
 		<a href="">Home</a>
 		<a href="">Textos de alumnos</a>
 		<a href="">Inscripción</a>
-		<a href="">Sign In</a> 
+		<a class="active-nav-link" href="">Sign In</a>
 	</div>
 </nav>
 
 <main class="sign-in">
 	<section>
-		<div>
+		<div class="form-container">
 			<img src="./assets/logo-green.svg">
 			<form>
-				<div>
-					<label id="user">Ingresa tu mail</label>
+				<div class="input-container">
+					<label id="user">Ingresá tu mail:</label>
 					<input type="text" name="user" id="user">
 				</div>
-				<div>
-					<label id="password">Ingresa tu contraseña</label>
+				<div class="input-container">
+					<label id="password">Ingresá tu contraseña:</label>
 					<input type="password" name="password" id="password">
 				</div>
 				<div>
@@ -40,12 +43,8 @@
 
 <footer>
 	<div>
-		<a href="">
-			<img src="./assets/logo-instagram.svg">
-		</a>
-		<a href="">
-			<img src="./assets/logo-email.svg">
-		</a>
+		<a class="link-ig" href=""></a>
+		<a class="link-email" href=""></a>
 	</div>
 </footer>
 
