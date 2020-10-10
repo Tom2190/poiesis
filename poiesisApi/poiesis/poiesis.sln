@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poiesis", "poiesis\poiesis.csproj", "{1C61A6C7-577D-480D-8E6E-C9090D4506DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C61A6C7-577D-480D-8E6E-C9090D4506DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C61A6C7-577D-480D-8E6E-C9090D4506DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C61A6C7-577D-480D-8E6E-C9090D4506DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C61A6C7-577D-480D-8E6E-C9090D4506DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

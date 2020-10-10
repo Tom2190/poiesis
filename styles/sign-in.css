@@ -1,55 +1,56 @@
-main.sign-in{
-	background-image: url("../assets/background-coffee.jpg");
-	flex: 1;
-	background-repeat: no-repeat;
-	background-size: cover;
+main.sign-in {
+  background-image: url("../assets/background-coffee.jpg");
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.sign-in section{
-	width: 100%;
-	height: 100%;
-	background-color: rgba(78, 183, 188, 0.76);
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.sign-in section {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78, 183, 188, 0.76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sign-in section .form-container{
-	background: #FFFFFF;
-	box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.25);
-	border-radius: 25px;
-	padding: 50px 30px;
-	text-align: center;
-	width: 100%;
-	max-width: 430px;
+.sign-in section .form-container {
+  background: #ffffff;
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  padding: 50px 30px;
+  text-align: center;
+  width: 100%;
+  max-width: 430px;
 }
 
-.sign-in section .input-container > *{
-	display: block;
-	text-align: left;
-	width: 100%;
-	margin-bottom: 5px;
+.sign-in section .input-container > * {
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
-.sign-in section .input-container{
-	margin: 15px 0px;
+.sign-in section .input-container {
+  margin: 15px 0px;
 }
 
-.sign-in section .input-container input{
-	padding: 10px;
-	border-radius: 10px;
-	}
-
-.sign-in section .form-container button{
-	border-radius: 10px;
-	padding: 13px 42px;
-	background-color: #4EB7BC;
-	color: #FFFFFF;
-	border: none;
-	margin-bottom: 10px;
+.sign-in section .input-container input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
-.sign-in section .form-container a{
-	color: #4EB7BC;
-	text-decoration: underline;
-	}
+.sign-in section .form-container button {
+  border-radius: 10px;
+  padding: 13px 42px;
+  background-color: #4eb7bc;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.sign-in section .form-container a {
+  color: #4eb7bc;
+  text-decoration: underline;
+}

@@ -6,8 +6,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" type="text/css" href="./styles/general.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/sign-in.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/inscripcion.css" />
   </head>
 
   <body>
@@ -16,29 +21,22 @@
       <div>
         <a href="">Home</a>
         <a href="">Textos de alumnos</a>
-        <a href="./inscripcion.html">Inscripción</a>
-        <a class="active-nav-link" href="./sign-in.html">Sign In</a>
+        <a href="./inscripcion.html" class="active-nav-link">Inscripción</a>
+        <a href="./sign-in.html">Sign In</a>
       </div>
     </nav>
 
-    <main class="sign-in">
+    <main class="inscripcion">
+      <section class="banner">
+        <div><h2 class="font-abril">Participar del taller</h2></div>
+      </section>
       <section>
         <div class="form-container">
-          <img src="./assets/logo-green.svg" />
           <form>
-            <div class="input-container">
-              <label id="user">Ingresá tu mail:</label>
-              <input type="text" name="user" id="user" />
-            </div>
-            <div class="input-container">
-              <label id="password">Ingresá tu contraseña:</label>
-              <input type="password" name="password" id="password" />
-            </div>
             <div>
-              <button type="submmit">Ingresar</button>
+              <button type="submmit" class="primary">Ingresar</button>
             </div>
           </form>
-          <a href="">Recuperar contraseña</a>
         </div>
       </section>
     </main>
