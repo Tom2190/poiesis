@@ -49,3 +49,23 @@ main.home {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+.item{
+  padding: 60px 8px 50px;
+}
+
+.text{
+  color: #144556;
+  padding: 56px 20px 30px 37px;
+  margin: initial;
+  box-sizing: unset;
+  font-family: 'Arvo', serif;
+  font-weight: 500;
+  font-size: 131%;
+}
+
+
+
+
+
