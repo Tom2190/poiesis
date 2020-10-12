@@ -18,3 +18,14 @@ main.inscripcion .banner div {
   justify-content: center;
   color: #ffffff;
 }
+
+.form-container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 25px auto;
+}
+
+main.inscripcion .form-inner-container {
+  width: 33%;
+  margin: 0 15px;
+}

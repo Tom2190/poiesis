@@ -24,23 +24,6 @@ main.sign-in {
   max-width: 430px;
 }
 
-.sign-in section .input-container > * {
-  display: block;
-  text-align: left;
-  width: 100%;
-  margin-bottom: 5px;
-}
-
-.sign-in section .input-container {
-  margin: 15px 0px;
-}
-
-.sign-in section .input-container input {
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid black;
-}
-
 .sign-in section .form-container button {
   border-radius: 10px;
   padding: 13px 42px;
