@@ -1,0 +1,31 @@
+main.inscripcion {
+  flex: 1;
+}
+
+main.inscripcion .banner {
+  background-image: url("../assets/background-coffee.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main.inscripcion .banner div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78, 183, 188, 0.76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 25px auto;
+}
+
+main.inscripcion .form-inner-container {
+  width: 33%;
+  margin: 0 15px;
+}

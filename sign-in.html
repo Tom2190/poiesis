@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Poiesis: Sign-in</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles/general.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/sign-in.css" />
+  </head>
 
-<head>
-	<title>Poiesis: Sign-in</title>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="./styles/general.css">
-	<link rel="stylesheet" type="text/css" href="./styles/sign-in.css">
-</head>
+  <body>
+    <nav>
+      <img src="./assets/logo-green.svg" />
+      <div>
+        <a href="">Home</a>
+        <a href="">Textos de alumnos</a>
+        <a href="./inscripcion.html">Inscripción</a>
+        <a class="active-nav-link" href="./sign-in.html">Sign In</a>
+      </div>
+    </nav>
 
-<body>
-<nav>
-	<img src="./assets/logo-green.svg">
-	<div>
-		<a href="">Home</a>
-		<a href="">Textos de alumnos</a>
-		<a href="">Inscripción</a>
-		<a class="active-nav-link" href="">Sign In</a>
-	</div>
-</nav>
+    <main class="sign-in">
+      <section>
+        <div class="form-container">
+          <img src="./assets/logo-green.svg" />
+          <form>
+            <div class="input-container">
+              <label id="user">Ingresá tu mail:</label>
+              <input type="text" name="user" id="user" />
+            </div>
+            <div class="input-container">
+              <label id="password">Ingresá tu contraseña:</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div>
+              <button type="submmit">Ingresar</button>
+            </div>
+          </form>
+          <a href="">Recuperar contraseña</a>
+        </div>
+      </section>
+    </main>
 
-<main class="sign-in">
-	<section>
-		<div class="form-container">
-			<img src="./assets/logo-green.svg">
-			<form>
-				<div class="input-container">
-					<label id="user">Ingresá tu mail:</label>
-					<input type="text" name="user" id="user">
-				</div>
-				<div class="input-container">
-					<label id="password">Ingresá tu contraseña:</label>
-					<input type="password" name="password" id="password">
-				</div>
-				<div>
-					<button type="submmit">Ingresar</button>
-				</div>
-			</form>
-			<a href="">Recuperar contraseña</a>
-		</div>
-	</section>
-</main>
-
-<footer>
-	<div>
-		<a class="link-ig" href=""></a>
-		<a class="link-email" href=""></a>
-	</div>
-</footer>
-
-
-</body>
+    <footer>
+      <div>
+        <a class="link-ig" href=""></a>
+        <a class="link-email" href=""></a>
+      </div>
+    </footer>
+  </body>
 </html>
