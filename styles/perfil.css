@@ -1,0 +1,50 @@
+.perfil section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.perfil .main-container {
+  background: #ffffff;
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center;
+  width: 100%;
+  max-width: 1120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container.edicion {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-container.edicion .up-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.up-form .form-inner-container {
+  width: 50%;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.down-form {
+  margin: 0 10px;
+}
+
+.tab-container {
+  border-left: 2px solid #4eb7bc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.tab-container a {
+  display: block;
+}
