@@ -4,7 +4,7 @@ main.area-comun {
 
 main.area-comun .banner {
   background-image: url("../assets/background-coffee.jpg");
-  height: 300px;
+  height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,4 +17,76 @@ main.area-comun .banner div {
   align-items: center;
   justify-content: center;
   color: #ffffff;
+}
+
+main.area-comun .generos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: 60px auto;
+}
+
+main.area-comun .ficcion{
+  background-image: url("../assets/ficcion.png");
+  height: 250px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+main.area-comun .ficcion div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(133, 78, 188, 0.68);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+main.area-comun .no-ficcion{
+  background-image: url("../assets/no-ficcion.png");
+  height: 250px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+main.area-comun .no-ficcion div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78, 122, 188, 0.68);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+
+main.area-comun .poesia{
+  background-image: url("../assets/poesia.png");
+  height: 250px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+main.area-comun .poesia div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(188, 131, 78, 0.68);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
 }
