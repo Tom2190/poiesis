@@ -1,8 +1,8 @@
 .perfil section {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 0 15px;
+  align-items: stretch;
+  padding: 40px 15px;
 }
 
 .perfil .main-container {
@@ -16,12 +16,20 @@
   justify-content: space-between;
 }
 
-.form-container.edicion {
+.form-container {
   width: 70%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-container.edicion .up-form {
+.form-container.password {
+  width: 30%;
+}
+
+.form-container.edicion .up-form,
+.form-container .text-form .up-form {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,9 +50,26 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-align: left;
 }
 
 .tab-container a {
   display: block;
+}
+
+.text-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-form .down-form {
+  flex: 1;
+}
+
+.text-form .down-form .input-container {
+  height: 100%;
+}
+.text-form .down-form textarea {
+  height: 85%;
 }

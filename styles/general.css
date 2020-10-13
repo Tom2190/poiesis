@@ -43,6 +43,10 @@ h2 {
   font-family: "Abril Fatface", cursive;
 }
 
+.full-width {
+  width: 100%;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
