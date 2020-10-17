@@ -27,7 +27,7 @@ main.area-comun .generos {
   margin: 60px auto;
 }
 
-main.area-comun .ficcion{
+main.area-comun .ficcion {
   background-image: url("../assets/ficcion.png");
   height: 250px;
   width: 250px;
@@ -48,7 +48,7 @@ main.area-comun .ficcion div {
   border-radius: 25px;
 }
 
-main.area-comun .no-ficcion{
+main.area-comun .no-ficcion {
   background-image: url("../assets/no-ficcion.png");
   height: 250px;
   width: 250px;
@@ -69,8 +69,25 @@ main.area-comun .no-ficcion div {
   border-radius: 25px;
 }
 
+main.area-comun .no-ficcion div:hover {
+  background-color: rgb(78, 122, 188);
+  cursor: not-allowed;
+}
 
-main.area-comun .poesia{
+main.area-comun .no-ficcion div::before {
+  content: "(Proximamente)";
+  display: none;
+}
+
+main.area-comun .no-ficcion div:hover::before {
+  display: block;
+}
+
+main.area-comun .no-ficcion div:hover h3 {
+  display: none;
+}
+
+main.area-comun .poesia {
   background-image: url("../assets/poesia.png");
   height: 250px;
   width: 250px;
@@ -89,4 +106,22 @@ main.area-comun .poesia div {
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
+}
+
+main.area-comun .poesia div:hover {
+  background-color: rgb(188, 131, 78);
+  cursor: not-allowed;
+}
+
+main.area-comun .poesia div::before {
+  content: "(Proximamente)";
+  display: none;
+}
+
+main.area-comun .poesia div:hover::before {
+  display: block;
+}
+
+main.area-comun .poesia div:hover h3 {
+  display: none;
 }

@@ -20,46 +20,47 @@ main.ficcion .banner div {
 }
 
 main.ficcion .busqueda {
-width: 330px;
-height: 51px;
-margin: 60px;
-}
-
-main.ficcion .busqueda .input{
-background: #FFFFFF;
-border: 1px solid #919191;
-box-sizing: border-box;
-border-radius: 10px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
 }
 
 main.ficcion .textos {
   display: flex;
   align-items: center;
-  justify-content: center;
-  align-content: space-between;
-  width: 70%;
+  width: 100%;
+  max-width: 1200px;
   margin: 60px auto;
+  overflow: auto;
+  flex-wrap: wrap;
 }
 
-main.ficcion .texto{
+main.ficcion a {
+  display: inline-block;
+  width: 24%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+main.ficcion .texto {
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  flex-direction: column;
   height: 130px;
-  width: 350px;
   background-color: rgba(133, 78, 188, 0.68);
   border-radius: 25px;
 }
 
-main.ficcion .texto h3{
-  color: #FFFFFF;
+main.ficcion .texto h3 {
+  color: #ffffff;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
 }
 
-main.ficcion .texto h4{
+main.ficcion .texto h4 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -68,5 +69,31 @@ main.ficcion .texto h4{
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.form-busqueda {
+  display: inline-block;
+}
+
+.input-busqueda {
+  padding: 0;
+  border-radius: 10px;
+  border: 1px solid #909090;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-busqueda input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.input-busqueda button {
+  padding: 0 10px 0 0;
+  border-radius: 0;
+  border: 0;
+  background-color: transparent;
 }
