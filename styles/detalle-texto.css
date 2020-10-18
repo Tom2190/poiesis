@@ -3,96 +3,61 @@ main.home {
   overflow: auto;
 }
 
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../assets/fondo-ficcion.jpg");
-  /* Set a specific height */
-  height: 330px;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: 50% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  	width: 100%;
-  	height: 100%;
-  	background-color: rgba(138, 80, 195, 0.76); 
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	color: white;
-  	text-align: center;
-    font-family: Abril Fatface;
-    font-size: xxx-large;
-}
-
-
-
-.bold{
-  font-weight: 600;
-}
-
-.seccion-texto{
+.seccion-texto {
   display: flex;
-  margin-inline: 150px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.autor{
+.autor {
   font-weight: 200;
   color: #144556;
 }
 
-.texto{
+.texto-contenido {
   overflow: scroll;
   font-weight: 200;
   color: #144556;
   padding: 40px 0px 0px 0px;
+  line-height: 2;
 }
 
-
-.texto-autor{
+.texto-autor {
   padding: 50px 30px 90px 27px;
 }
 
-
-.botones{
+.botones {
   padding: 60px 0px 0px 0px;
 }
 
-.boton-borrar{
-    display: inline;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #BC4E4E;
-    border: none;
-    border-radius: 15px;
-    width: 200px;
-    height: 45px;
-    margin-top: 12px;
-}
-.boton-editar{
-    display: inline;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4EB7BC;
-    border: none;
-    border-radius: 15px;
-    width: 200px;
-    height: 45px;
-}
+.boton-borrar {
+  display: inline;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #bc4e4e;
+  border: none;
+  border-radius: 15px;
+  width: 200px;
+  height: 45px;
+  margin-top: 12px;
 }
 
-
-
-
+.boton-editar {
+  display: inline;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4eb7bc;
+  border: none;
+  border-radius: 15px;
+  width: 200px;
+  height: 45px;
+}
