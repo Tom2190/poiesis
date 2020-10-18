@@ -27,6 +27,11 @@ h2 {
   letter-spacing: 3px;
 }
 
+h3 {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
 .p10 {
   padding: 10px;
 }
